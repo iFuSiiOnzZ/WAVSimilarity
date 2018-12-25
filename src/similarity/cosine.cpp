@@ -42,7 +42,7 @@ template <typename T> static void fnc_insert_sorted(std::vector<T> &vector, cons
 //
 // INPUT:
 //      std::vector<T> &vector                  vector where where to search
-//      const T        &element                 element to serach
+//      const T        &element                 element to search
 //
 // OUTPUT:
 //      bool                                    true if found, false otherwise
@@ -53,7 +53,7 @@ template <typename T> static bool fnc_has_element(const std::vector<T> &vector, 
 }
 
 // The function generates as output the union of the two input vector.
-// The oputput will contain the values of the first and second vector
+// The output will contain the values of the first and second vector
 // without repetitions.
 //
 // INPUT:
@@ -135,7 +135,7 @@ static void fnc_calculate_frequency(const std::vector<int> &v1, const std::vecto
 //      const std::vector<InputType> &v2    second vector
 //
 // OUTPUT:
-//      OutputType                          the cosine betweeen the two vectors
+//      OutputType                          the cosine between the two vectors
 //
 template <typename InputType, typename OutputType> static OutputType fnc_calculate_cosine(const std::vector<InputType> &v1, const std::vector<InputType> &v2)
 {
