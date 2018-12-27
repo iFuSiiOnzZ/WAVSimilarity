@@ -12,7 +12,7 @@ mkdir WavSimilarity\SourceCode
 cd WavSimilarity\SourceCode
 
 # Clone this repository
-git clone https://github.com/iFuSiiOnzZ/WAVSimilarity.git
+git clone https://github.com/iFuSiiOnzZ/WAVSimilarity.git .
 
 # Build the application
 .\build.bat
